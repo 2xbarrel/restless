@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "h1";
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+  
+@font-face {
+    font-family: "h2";
+    src: url("../fonts/JustAnotherHand.ttf");
+}
+
+@font-face {
+    font-family: "UP";
+    src: url("fonts/UP.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: rgb(97, 9, 156);
+    --color2: rgb(66, 8, 105);
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-image: url("bg1.png"); */
+    background: repeating-linear-gradient(45deg, var(--color1), var(--color1) 10px, var(--color2) 10px, var(--color2) 20px);
+}
+
+/* .container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(0, 0, 0);
+    height: auto;
+}
+
+.corners-top {
+    border-radius: 30px 30px 0px 0px;
+}
+
+.corners-bottom {
+    border-radius: 0px 0px 30px 30px;
+}
+
+h1 {
+    font-family: "h1";
+    margin: -3px;
+    color: var(--color1);
+    font-size: 80px;
+}
+
+h2 {
+    font-family: "h2";
+    margin: 2px;
+    color: white;
+    font-size: 40px;
+}
+
+.img {
+    max-width: 600px;
+    border-radius: 10px;
+    height: auto;
+    border: 10px solid  black; 
+}
+
+.icon {
+    max-width: 70px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+   color: var(--color1);
+   text-decoration: underline 2px;
+}
+
+.PQ {
+    font-family: "UP";
+    font-size: 50px;
+    color: white;
+    text-decoration: underline 2px;
+    color: white;
+}
+
+.bigger {
+    font-size: 50px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 630px) {    
+    h1 {
+      font-size: 11vw;
+    }
+    
+    h2 {
+      font-size: 8vw;
+    }
+
+    .img {
+        max-width: 95%;
+    }
+
+    .icon {
+        max-width: 40%;
+    }
+
+    .box {
+        max-width: 90vw;
+    }
+
+}
+  
+  
