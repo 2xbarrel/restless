@@ -60,6 +60,9 @@ h2 {
     margin: 2px;
     color: white;
     font-size: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .img {
@@ -71,6 +74,8 @@ h2 {
 
 .icon {
     max-width: 70px;
+    margin-bottom: -100px;
+    margin-top: -10px;
 }
 
 .row {
@@ -112,9 +117,9 @@ button {
         max-width: 95%;
     }
 
-    /* .icon {
-        max-width: 40%;
-    } */
+    .icon {
+        max-width: 10vw;
+    }
 
     .box {
         max-width: 90vw;
