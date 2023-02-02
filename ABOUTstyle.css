@@ -92,7 +92,7 @@ h2 {
 
 a {
    color: var(--color1);
-   text-decoration: underline 2px;
+   text-decoration: underline 2px white;
 }
 
 .PQ {
