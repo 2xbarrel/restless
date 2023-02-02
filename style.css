@@ -55,6 +55,13 @@ body {
     border-radius: 0px 0px 30px 30px;
 }
 
+iframe {
+    min-width: 820px;
+    min-height: 630px;
+    border-radius: 30px 30px 30px 30px;
+    border: black 35px;
+}
+
 .menu {
     padding-top: 10px;
     align-items: center;
