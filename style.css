@@ -58,7 +58,6 @@ body {
 iframe {
     min-width: 820px;
     min-height: 630px;
-    border-radius: 30px 30px 30px 30px;
     border: black 35px;
 }
 
@@ -150,6 +149,12 @@ a:visited {
     .main {
         flex-direction: column-reverse;
     }
+
+    iframe {
+        min-width: 96vw;
+        min-height: 96vw;
+    }
+
 }
   
   
