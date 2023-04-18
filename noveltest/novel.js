@@ -1,8 +1,8 @@
 let dialogueNum = 0;
 let char1 = document.getElementById("char1");
 let char2 = document.getElementById("char2");
-let emotion1 = "IDLE";
-let emotion2 = "IDLE";
+let emotion1 = "IDLE.png";
+let emotion2 = "IDLE.png";
 
 const visual = document.getElementById("visual");
 const dialogue = document.getElementById("dialogue");
@@ -54,36 +54,36 @@ const appearTiming = {
 
 button.addEventListener("click", async () => {
 
-    char1.setAttribute("src", `char1${emotion1}.png`);
-    char2.setAttribute("src", `char2${emotion2}.png`);
+    char1.setAttribute("src", `char1${emotion1}`);
+    char2.setAttribute("src", `char2${emotion2}`);
 
     dialogueNum += 1;
 
     switch (dialogueNum) {
         case 1:
-            emotion1 = "HAPPY";
-            emotion2 = "IDLE";
+            emotion1 = "HAPPY.png";
+            emotion2 = "IDLE.png";
             char1.animate(appear, appearTiming);
             dialogue.innerHTML = `CharName:
             <p>This is a test NUMBER 2 bla bla bla bla bla bla bla bla</p>`
             break;
         case 2:
-            emotion1 = "ANGRY";
-            emotion2 = "HAPPY";
+            emotion1 = "ANGRY.png";
+            emotion2 = "HAPPY.png";
             char2.animate(appearRight, appearTiming);
             dialogue.innerHTML = `CharName:
             <p>This is a test NUMBER 3 bla bla bla bla bla bla bla bla</p>`
             break;
         case 3:
-            emotion1 = "IDLE"
-            emotion2 = "ANGRY";
+            emotion1 = "IDLE.png"
+            emotion2 = "ANGRY.png";
             char1.animate(shake, timing);
             dialogue.innerHTML = `CharName:
             <p>This is a test NUMBER 4 bla bla bla bla bla bla bla bla</p>`
             break;
         case 4: 
-            emotion1 = "ANGRY";
-            emotion2 = "IDLE";
+            emotion1 = "ANGRY.png";
+            emotion2 = "IDLE.png";
             char2.animate(shake, timing);
             dialogue.innerHTML = `CharName:
             <p>This is a test NUMBER 5 bla bla bla bla bla bla bla bla</p>`
@@ -91,8 +91,8 @@ button.addEventListener("click", async () => {
         case 5: 
             char1.animate(shake, timing);
             char2.animate(shake, timing);
-            emotion1 = "HAPPY";
-            emotion2 = "HAPPY";
+            emotion1 = "HAPPY.png";
+            emotion2 = "HAPPY.png";
             dialogue.innerHTML = `CharName:
             <p>This is a test NUMBER 6 bla bla bla bla bla bla bla bla</p>`
             break;

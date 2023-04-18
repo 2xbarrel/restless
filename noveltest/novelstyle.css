@@ -42,8 +42,8 @@ body {
 .visual {
     position: relative;
     width: 730px;
-    height: 376px;
-    justify-content: space-around;
+    height: auto;
+    justify-content: center;
     display: flex;
     flex-direction: row;
 }
@@ -93,10 +93,37 @@ h2 {
 
 a {
     color: var(--color1);
-    text-decoration: underline 2px;
+    text-decoration: underline 2px white;
 }
  
 a:visited {
-    text-decoration: underline 2px;
+    text-decoration: underline 2px white;
     color: var(--color1);
+}
+
+@media screen and (max-width: 730px) {    
+    h1 {
+      font-size: 5vw;
+    }
+    
+    h2 {
+      font-size: 6vw;
+    }
+
+    img {
+        max-width: 97vw;
+    }
+
+    .char {
+        max-width: 50vw;
+        max-height: 50vw;
+    }
+
+    .dialogueBox {
+        min-width: 90vw;
+    }
+
+    .box {
+        max-width: 90vw;
+    }
 }
