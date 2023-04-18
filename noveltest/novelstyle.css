@@ -114,6 +114,10 @@ a:visited {
         max-width: 97vw;
     }
 
+    .visual {
+        width: 97vw;
+    }
+
     .char {
         max-width: 50vw;
         max-height: 50vw;
