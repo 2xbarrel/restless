@@ -12,6 +12,13 @@ const animations = {
         { transform: "translateX(15px)" },
         { transform: "translateX(0)" },
     ],
+    "shakeChar2": [
+        { transform: "translateX(0) scaleX(-1)" },
+        { transform: "translateX(15px) scaleX(-1)" },
+        { transform: "translateX(-15px) scaleX(-1)" },
+        { transform: "translateX(15px) scaleX(-1)" },
+        { transform: "translateX(0) scaleX(-1)" },
+    ],
     "appear": [
         { opacity: 0 },
         { opacity: 1 },
@@ -30,6 +37,10 @@ const animations = {
 
 const timings = {
     "shake": {
+        duration: 200,
+        iterations: 2,
+    },
+    "shakeChar2": {
         duration: 200,
         iterations: 2,
     },
@@ -54,6 +65,10 @@ const extensions = {
     "IDLE": ".png",
     "HAPPY": ".png",
     "ANGRY": ".png",
+    "CONFUSED": ".png",
+    "SCARED": ".gif",
+    "LAUGH": ".gif",
+    "GRUMPY": ".gif"
 };
 
 function setChar(charName, dialogue) {

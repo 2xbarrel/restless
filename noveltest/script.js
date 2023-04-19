@@ -10,13 +10,14 @@ const script = [
   },
   { //dialogue 2
     "char1": {
-      "emotion": "HAPPY",
-      "name": "Artemiy"
+      "emotion": "SCARED",
+      "name": "Artemiy",
+      "animation": "shake",
     },
     "char2": {
       "emotion": "IDLE",
       "animation": "appear",
-      "name": "char2"
+      "name": "Elise"
     },
     "talker": "char2",
     "say": "test num 2"
@@ -29,39 +30,51 @@ const script = [
     },
     "char2": {
       "emotion": "HAPPY",
-      "name": "char2",
+      "name": "Elise",
     },
     "talker": "char1",
     "say": "test num 3"
   },
   { //dialogue 4
     "char1": {
-      "emotion": "IDLE",
+      "emotion": "GRUMPY",
       "name": "Artemiy",
     },
     "char2": {
-      "emotion": "ANGRY",
-      "name": "char2",
-      "animation": "shake",
+      "emotion": "CONFUSED",
+      "name": "Elise",
     },
-    "talker": "char2",
+    "talker": "char1",
     "say": "test num 4"
   },
   { //dialogue 5
     "char1": {
+      "emotion": "LAUGH",
+      "name": "Artemiy",
+    },
+    "char2": {
+      "emotion": "ANGRY",
+      "name": "Elise",
+      "animation": "shakeChar2",
+    },
+    "talker": "char2",
+    "say": "test num 5"
+  },
+  { //dialogue 6
+    "char1": {
       "emotion": "HAPPY",
       "name": "Artemiy",
       "animation": "shake"
     },
     "char2": {
       "emotion": "HAPPY",
-      "name": "char2",
-      "animation": "shake"
+      "name": "Elise",
+      "animation": "shakeChar2"
     },
     "talker": "char1",
-    "say": "test num 5"
+    "say": "test num 6"
   },
-  { //dialogue 6
+  { //dialogue 7
     "char1": {
       "emotion": "IDLE",
       "name": "Artemiy",
@@ -69,11 +82,11 @@ const script = [
     },
     "char2": {
       "emotion": "IDLE",
-      "name": "char2",
+      "name": "Elise",
       "animation": "disappear"
     },
     "talker": "char2",
-    "say": "test num 6"
+    "say": "test num 7"
   },
 ];
 const exit = "../index.html";

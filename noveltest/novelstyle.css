@@ -56,6 +56,11 @@ img {
     opacity: 0;
 }
 
+.char2 {
+    opacity: 0;
+    transform: scaleX(-1);
+}
+
 .bg {
    position: absolute;
 }
