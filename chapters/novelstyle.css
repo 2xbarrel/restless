@@ -9,8 +9,8 @@
 }
 
 :root {
-    --color1: rgb(97, 9, 156);
-    --color2: rgb(66, 8, 105);
+    --color1: rgb(134, 134, 134);
+    --color2: rgb(112, 112, 112);
 }
 
 body {
@@ -59,6 +59,62 @@ img {
 .char2 {
     opacity: 0;
     transform: scaleX(-1);
+}
+
+.Artemiy {
+    color: rgb(255, 89, 0);
+}
+
+.Elise {
+    color: rgb(0, 72, 186);
+}
+
+.Hilde {
+    color: rgb(154, 33, 62);
+}
+
+.Erik {
+    color: rgb(41, 130, 0);
+}
+
+.Grace {
+    color: rgb(132, 0, 154);
+}
+
+.Caitlin {
+    color: rgb(53, 133, 102);
+}
+
+.Brodie {
+    color: rgb(255, 0, 28);
+}
+
+.Death {
+    color: rgb(102, 102, 102);
+}
+
+.Eve {
+    color: rgb(255, 210, 234);
+}
+
+.Samael {
+    color: rgb(255, 140, 115);
+}
+
+.STOPLOOKINGHERE {
+    color: rgb(0, 0, 0);
+}
+
+.think {
+    color: rgb(90, 90, 90);
+}
+
+.Juno {
+    color: rgb(0, 255, 149);
+}
+
+.Barl {
+    color: rgb(255, 255, 255);
 }
 
 .bg {

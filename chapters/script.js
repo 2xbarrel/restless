@@ -1,69 +1,74 @@
 const script = [
   { //dialogue 1
+    "bg": "blackScreen",
     "char1": {
-      "emotion": "HAPPY",
-      "animation": "appear",
-      "name": "Artemiy"
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
     },
     "talker": "char1",
-    "say": "test num 1"
+    "say": "man im dead"
   },
   { //dialogue 2
+    "bg": "deathOffice",
     "char1": {
-      "emotion": "SCARED",
-      "name": "Artemiy",
-      "animation": "shake",
+      "emotion": "PAPERS",
+      "animation": "appear",
+      "name": "Death"
     },
     "char2": {
-      "emotion": "IDLE",
       "animation": "appear",
-      "name": "Elise"
+      "emotion": "GRUMPY",
+      "name": "Samael"
     },
-    "talker": "char2",
+    "talker": "char1",
     "say": "test num 2"
   },
   { //dialogue 3
+    "bg": "bg",
     "char1": {
       "emotion": "ANGRY",
       "animation": "shake",
-      "name": "Artemiy",
+      "name": "Brodie",
     },
     "char2": {
-      "emotion": "HAPPY",
-      "name": "Elise",
+      "emotion": "SCARED",
+      "name": "Brodie",
     },
     "talker": "char1",
     "say": "test num 3"
   },
   { //dialogue 4
+    "bg": "bg",
     "char1": {
-      "emotion": "GRUMPY",
-      "name": "Artemiy",
+      "emotion": "CONFUSED",
+      "name": "Brodie",
     },
     "char2": {
-      "emotion": "CONFUSED",
-      "name": "Elise",
+      "emotion": "GRUMPY",
+      "name": "Brodie",
     },
     "talker": "char1",
     "say": "test num 4"
   },
   { //dialogue 5
+    "bg": "deathOffice",
     "char1": {
       "emotion": "LAUGH",
-      "name": "Artemiy",
+      "name": "Brodie",
     },
     "char2": {
       "emotion": "ANGRY",
-      "name": "Elise",
+      "name": "Brodie",
       "animation": "shakeChar2",
     },
     "talker": "char2",
     "say": "test num 5"
   },
   { //dialogue 6
+    "bg": "deathOffice",
     "char1": {
-      "emotion": "HAPPY",
-      "name": "Artemiy",
+      "emotion": "CONFUSED",
+      "name": "Hilde",
       "animation": "shake"
     },
     "char2": {
@@ -75,6 +80,7 @@ const script = [
     "say": "test num 6"
   },
   { //dialogue 7
+    "bg": "deathOffice",
     "char1": {
       "emotion": "IDLE",
       "name": "Artemiy",

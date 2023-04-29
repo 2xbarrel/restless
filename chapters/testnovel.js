@@ -1,6 +1,7 @@
 const visual = document.getElementById("visual");
 const dialogue = document.getElementById("dialogue");
 const button = document.getElementById("button");
+const background = document.getElementById("bg");
 
 let dialogueBetter = script[0];
 
@@ -29,7 +30,13 @@ const animations = {
     ],
     "appearRight": [
         { transform: "translateX(0px)" },
-        { transform: "translateX(200px)" },
+        { transform: "translateX(50px)" },
+        { opacity: 0 },
+        { opacity: 1 },
+    ],
+    "appearLeft": [
+        { transform: "translateX(0px)" },
+        { transform: "translateX(50px)" },
         { opacity: 0 },
         { opacity: 1 },
     ]
@@ -58,6 +65,11 @@ const timings = {
         duration: 400,
         iterations: 1,
         fill: "forwards",
+    },
+    "appearLeft": {
+        duration: 400,
+        iterations: 1,
+        fill: "forwards",
     }
 };
 
@@ -65,16 +77,19 @@ const extensions = {
     "IDLE": ".png",
     "HAPPY": ".png",
     "ANGRY": ".png",
+    "PAPERS": ".png",
     "CONFUSED": ".png",
+    "OWIE": ".png",
     "SCARED": ".gif",
     "LAUGH": ".gif",
+    "CRY": ".gif",
     "GRUMPY": ".gif"
 };
 
 function setChar(charName, dialogue) {
     if (dialogue[charName]) {
         let char = document.getElementById(charName);
-        let imageSrc = `${dialogue[charName]["name"]}${dialogue[charName]["emotion"]}${extensions[dialogue[charName]["emotion"]]}`;
+        let imageSrc = `../CharacterSprites/${dialogue[charName]["name"]}${dialogue[charName]["emotion"]}${extensions[dialogue[charName]["emotion"]]}`;
         let animationName = dialogue[charName]["animation"];
         char.setAttribute("src", imageSrc);
         if (animationName) {
@@ -83,7 +98,8 @@ function setChar(charName, dialogue) {
     }
 };
 
-dialogue.innerHTML = `${dialogueBetter[dialogueBetter["talker"]]["name"]}:<p>${dialogueBetter["say"]}</p>`;
+background.src= `../backgrounds/${dialogueBetter["bg"]}.png`;
+dialogue.innerHTML = `<span class ="${dialogueBetter[dialogueBetter["talker"]]["name"]}">${dialogueBetter[dialogueBetter["talker"]]["name"]}:</span><p>${dialogueBetter["say"]}</p>`;
 
 setChar("char1", dialogueBetter);
 setChar("char2", dialogueBetter);
@@ -102,5 +118,6 @@ button.addEventListener("click", async () => {
     setChar("char1", dialogueBetter);
     setChar("char2", dialogueBetter);
 
-    dialogue.innerHTML = `${dialogueBetter[dialogueBetter["talker"]]["name"]}:<p>${dialogueBetter["say"]}</p>`;
+    background.src= `../backgrounds/${dialogueBetter["bg"]}.png`;
+    dialogue.innerHTML = `<span class ="${dialogueBetter[dialogueBetter["talker"]]["name"]}">${dialogueBetter[dialogueBetter["talker"]]["name"]}:</span><p>${dialogueBetter["say"]}</p>`;
 });
