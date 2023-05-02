@@ -242,7 +242,7 @@ const script = [
       "name": "Death",
     },
     "talker": "char2",
-    "say": "Alright that doesn't matter right now, firstly we need to figure out why your soul got stuck here."
+    "say": "That doesn't matter right now, firstly we need to figure out why your soul got stuck here."
   },
   { //dialogue 22
     "bg": "bg",
@@ -430,7 +430,7 @@ const script = [
       "name": "Samael",
     },
     "talker": "char1",
-    "say": "Oh stop it, your little jokes are getting repetetive."
+    "say": 'Oh stop it, your little "jokes" are getting repetetive.'
   },
   { //dialogue 36
     "bg": "deathOffice",
@@ -554,6 +554,857 @@ const script = [
     },
     "talker": "char1",
     "say": "He's all yours, I'm tired of dealing with those guys."
+  },
+  { //dialogue 45
+    "bg": "deathOffice",
+    "char1": {
+      "emotion": "IDLE",
+      "animation": "appear",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "LAUGH",
+      "name": "Eve",
+    },
+    "talker": "char2",
+    "say": "Fear not, lost one, a noble angel will guide you through the afterlife!"
+  },
+  { //dialogue 46
+    "bg": "deathOffice",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "LAUGH",
+      "name": "Eve",
+    },
+    "talker": "char1",
+    "say": "... Sure, I guess?"
+  },
+  { //dialogue 47
+    "bg": "deathOffice",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "animation": "appear",
+      "name": "Death",
+    },
+    "talker": "char2",
+    "say": "Good, now get out, all of you! I already missed 6000 deaths!"
+  },
+  { //dialogue 48
+    "bg": "deathOffice",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "LAUGH",
+      "animation": "shakeChar2",
+      "name": "Eve",
+    },
+    "talker": "char2",
+    "say": "I will not disappoint you this time boss!"
+  },
+  { //dialogue 49
+    "bg": "deathOffice",
+    "char1": {
+      "emotion": "IDLE",
+      "animation": "disappear",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "LAUGH",
+      "animation": "disappear",
+      "name": "Eve",
+    },
+    "talker": "char1",
+    "say": "Let's go already..."
+  },
+  { //dialogue 50
+    "bg": "town",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "LAUGH",
+      "name": "Eve",
+    },
+    "talker": "char1",
+    "say": "location - the inbetween"
+  },
+  { //dialogue 51
+    "bg": "town",
+    "char1": {
+      "emotion": "IDLE",
+      "animation": "appear",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "HAPPY",
+      "animation": "appear",
+      "name": "Eve",
+    },
+    "talker": "char2",
+    "say": "This is the inbetween, lost sould like you stay here until we find a way to send them to heaven."
+  },
+  { //dialogue 52
+    "bg": "town",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Eve",
+    },
+    "talker": "char2",
+    "say": "I have to go work your paperwork for now so I advice you to go and introduce yourself to everyone here!"
+  },
+  { //dialogue 53
+    "bg": "town",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Eve",
+    },
+    "talker": "char1",
+    "say": "Death has paperwork?"
+  },
+  { //dialogue 54
+    "bg": "town",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "GRUMPY",
+      "name": "Eve",
+    },
+    "talker": "char2",
+    "say": "Yes, usually it's Samael's work but he completely neglected it."
+  },
+  { //dialogue 55
+    "bg": "town",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "GRUMPY",
+      "name": "Eve",
+    },
+    "talker": "char1",
+    "say": "Samael is the demon dude right?"
+  },
+  { //dialogue 56
+    "bg": "town",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "GRUMPY",
+      "name": "Eve",
+    },
+    "talker": "char2",
+    "say": "Yeah, just try to ignore him..."
+  },
+  { //dialogue 57
+    "bg": "town",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "GRUMPY",
+      "name": "Eve",
+    },
+    "talker": "char1",
+    "say": "Well alright."
+  },
+  { //dialogue 58
+    "bg": "town",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Eve",
+    },
+    "talker": "char2",
+    "say": "I have to go now, see you later!!"
+  },
+  { //dialogue 59
+    "bg": "town",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "animation": "disappear",
+      "name": "Eve",
+    },
+    "talker": "char1",
+    "say": "Bye.."
+  },
+  { //dialogue 60
+    "bg": "town",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Eve",
+    },
+    "talker": "char1",
+    "say": "Man, I thought death was going to be more ... peaceful."
+  },
+  { //dialogue 61
+    "bg": "town",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Eve",
+    },
+    "talker": "char1",
+    "say": 'Guess I should meet the "others", whoever they are.'
+  },
+  { //dialogue 62
+    "bg": "town",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Eve",
+    },
+    "talker": "char1",
+    "say": 'If I had to guess, all of them should be in that house so I guess I will check it first.'
+  },
+  { //dialogue 63
+    "bg": "town",
+    "char1": {
+      "emotion": "IDLE",
+      "animation": "disappear",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Eve",
+    },
+    "talker": "char1",
+    "say": "Hopefully they're not like those angel and demon dudes."
+  },
+  { //dialogue 64
+    "bg": "house",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE",
+    },
+    "talker": "char2",
+    "say": "location - house"
+  },
+  { //dialogue 65
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "animation": "appear",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE",
+    },
+    "talker": "char1",
+    "say": "... Hello? Anyone in here?"
+  },
+  { //dialogue 66
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "animation": "appear",
+      "name": "Elise",
+    },
+    "talker": "char2",
+    "say": "Well hello there, I believe you're new here."
+  },
+  { //dialogue 67
+    "bg": "house",
+    "char1": {
+      "emotion": "HAPPY",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Elise",
+    },
+    "talker": "char1",
+    "say": "Yeah some angel girl just showed me this place, name's Artemiy, pleased to meet you!"
+  },
+  { //dialogue 68
+    "bg": "house",
+    "char1": {
+      "emotion": "HAPPY",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "HAPPY",
+      "name": "Elise",
+    },
+    "talker": "char2",
+    "say": "I see youre pretty optimmistic, at least for now, my name is Élise, Élise Vien."
+  },
+  { //dialogue 69
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "HAPPY",
+      "name": "Elise",
+    },
+    "talker": "char1",
+    "say": 'What do you mean "for now"?'
+  },
+  { //dialogue 70
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "animation": "appear",
+      "name": "Grace",
+    },
+    "talker": "char2",
+    "say": "It appears there is an addition to our company."
+  },
+  { //dialogue 71
+    "bg": "house",
+    "char1": {
+      "emotion": "SCARED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "SCARED",
+      "animation": "shakeChar2",
+      "name": "Erik",
+    },
+    "talker": "char2",
+    "say": "DO NOT COME NEAR IT, I'M TELLING YOU GUYS IT'S AN ALIEN, ALIEN THAT CAME HERE TO ABDUCT US ALL AND KILL AND MURDER AND!!!"
+  },
+  { //dialogue 72
+    "bg": "house",
+    "char1": {
+      "emotion": "SCARED",
+      "animation": "shake",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "SCARED",
+      "name": "Erik",
+    },
+    "talker": "char1",
+    "say": "JESUS DUDE, DON'T SNEAK UP LIKE THAT, I ALMOST DIED A SECOND TIME JUST NOW!"
+  },
+  { //dialogue 73
+    "bg": "house",
+    "char1": {
+      "emotion": "ANGRY",
+      "animation": "appear",
+      "name": "Elise"
+    },
+    "char2": {
+      "emotion": "SCARED",
+      "name": "Erik",
+    },
+    "talker": "char1",
+    "say": "Erik, stop saying that everything is done or is alien, it's absurd how many times I had to tell you this!"
+  },
+  { //dialogue 74
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "animation": "appear",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "HAPPY",
+      "animation": "appear",
+      "name": "Grace",
+    },
+    "talker": "char2",
+    "say": "I do believe I haven't introduced myself, my name is Grace Burton."
+  },
+  { //dialogue 75
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "HAPPY",
+      "name": "Grace",
+    },
+    "talker": "char2",
+    "say": "And our crazy friend here is Erik Lindberg, don't mind him."
+  },
+  { //dialogue 76
+    "bg": "house",
+    "char1": {
+      "emotion": "ANGRY",
+      "animation": "shake",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "HAPPY",
+      "name": "Grace",
+    },
+    "talker": "char1",
+    "say": "HEY, who are you calling crazy!."
+  },
+  { //dialogue 77
+    "bg": "house",
+    "char1": {
+      "emotion": "ANGRY",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "HAPPY",
+      "name": "Grace",
+    },
+    "talker": "char2",
+    "say": "You."
+  },
+  { //dialogue 78
+    "bg": "house",
+    "char1": {
+      "emotion": "GRUMPY",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "HAPPY",
+      "name": "Grace",
+    },
+    "talker": "char1",
+    "say": "You're the one here pretending to be an alien to make me do your chores!!!"
+  },
+  { //dialogue 79
+    "bg": "house",
+    "char1": {
+      "emotion": "GRUMPY",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "LAUGH",
+      "name": "Grace",
+    },
+    "talker": "char2",
+    "say": "Oh, am I not allowed to have fun anymore?"
+  },
+  { //dialogue 80
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "animation": "appear",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "animation": "appear",
+      "name": "Elise",
+    },
+    "talker": "char1",
+    "say": "Man ... Are those two always like that?"
+  },
+  { //dialogue 81
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Elise",
+    },
+    "talker": "char2",
+    "say": "Yes, it's torture."
+  },
+  { //dialogue 82
+    "bg": "house",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "ANGRY",
+      "animation": "shakeChar2",
+      "name": "Hilde",
+    },
+    "talker": "char2",
+    "say": "Heyyyy what's with all the noiceeeee, I'm trying to sleeppppp! "
+  },
+  { //dialogue 83
+    "bg": "house",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "CONFUSED",
+      "name": "Hilde",
+    },
+    "talker": "char2",
+    "say": "Who is that dork?"
+  },
+  { //dialogue 84
+    "bg": "house",
+    "char1": {
+      "emotion": "HAPPY",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "CONFUSED",
+      "name": "Hilde",
+    },
+    "talker": "char1",
+    "say": "Well hi, I'm Artemiy, nice to meet you!"
+  },
+  { //dialogue 85
+    "bg": "house",
+    "char1": {
+      "emotion": "HAPPY",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "CONFUSED",
+      "animation": "disappear",
+      "name": "Hilde",
+    },
+    "talker": "char2",
+    "say": "I donnnnnnn't carrrrreeeeeeee ... I'll be sleeping, if you need me thennnn .... go away....."
+  },
+  { //dialogue 86
+    "bg": "house",
+    "char1": {
+      "emotion": "ANGRY",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "CONFUSED",
+      "name": "Hilde",
+    },
+    "talker": "char1",
+    "say": 'Damn ... not even a "hello"...'
+  },
+  { //dialogue 87
+    "bg": "house",
+    "char1": {
+      "emotion": "ANGRY",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "animation": "appear",
+      "name": "Grace",
+    },
+    "talker": "char2",
+    "say": "Don't mind Hilde, she's always sleeping, sometimes I forget she even exists. Well since you're going to be staying here, we need to decide where you will sleep."
+  },
+  { //dialogue 88
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace",
+    },
+    "talker": "char1",
+    "say": "I'm gonna be staying here?"
+  },
+  { //dialogue 89
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace",
+    },
+    "talker": "char2",
+    "say": "Unfortunately yes, who knows how long you will be here, maybe a month, maybe a year, maybe forever."
+  },
+  { //dialogue 90
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace",
+    },
+    "talker": "char1",
+    "say": "Forever? I thought this was like, death, not second life."
+  },
+  { //dialogue 91
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "animation": "appear",
+      "name": "Erik",
+    },
+    "talker": "char2",
+    "say": "... We all thought that at first and then we just got stuck here ..."
+  },
+  { //dialogue 92
+    "bg": "house",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "char2": {
+      "emotion": "ANGRY",
+      "animation": "shakeChar2",
+      "name": "Erik",
+    },
+    "talker": "char2",
+    "say": "Maybe you're not an alien, but I'm telling you, those \"angels\" and \"demons\" are definitely aliens!!!"
+  },
+  { //dialogue 93
+    "bg": "house",
+    "char1": {
+      "emotion": "ANGRY",
+      "animation": "appear",
+      "name": "Elise"
+    },
+    "char2": {
+      "emotion": "ANGRY",
+      "name": "Erik",
+    },
+    "talker": "char1",
+    "say": "Aaaany way, I don't think we have any spare rooms for Artemiy..."
+  },
+  { //dialogue 94
+    "bg": "house",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Elise"
+    },
+    "char2": {
+      "emotion": "CONFUSED",
+      "animation": "appear",
+      "name": "Artemiy",
+    },
+    "talker": "char2",
+    "say": "What about this room?"
+  },
+  { //dialogue 95
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Elise"
+    },
+    "char2": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy",
+    },
+    "talker": "char1",
+    "say": "The living room? Are you sure?"
+  },
+  { //dialogue 96
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Elise"
+    },
+    "char2": {
+      "emotion": "HAPPY",
+      "name": "Artemiy",
+    },
+    "talker": "char2",
+    "say": "Yeah, it still better than any place that I used to live."
+  },
+  { //dialogue 97
+    "bg": "house",
+    "char1": {
+      "emotion": "CONFUSED",
+      "name": "Elise"
+    },
+    "char2": {
+      "emotion": "HAPPY",
+      "name": "Artemiy",
+    },
+    "talker": "char1",
+    "say": "That's ... Kind of sad..."
+  },
+  { //dialogue 98
+    "bg": "house",
+    "char1": {
+      "emotion": "HAPPY",
+      "animation": "appear",
+      "name": "Grace"
+    },
+    "char2": {
+      "emotion": "HAPPY",
+      "name": "Artemiy",
+    },
+    "talker": "char1",
+    "say": "Then I believe we're all set, now if you excuse me, I will go take a nap."
+  },
+  { //dialogue 99
+    "bg": "house",
+    "char1": {
+      "emotion": "IDLE",
+      "animation": "appear",
+      "name": "Elise"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy",
+    },
+    "talker": "char1",
+    "say": "Me too, I don't think I've sleep since .... can't even remember..."
+  },
+  { //dialogue 100
+    "bg": "house",
+    "char1": {
+      "emotion": "IDLE",
+      "animation": "appear",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy",
+    },
+    "talker": "char1",
+    "say": "..."
+  },
+  { //dialogue 101
+    "bg": "house",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy",
+    },
+    "talker": "char1",
+    "say": "... Sorry about the alien thing dude ..."
+  },
+  { //dialogue 102
+    "bg": "house",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy",
+    },
+    "talker": "char2",
+    "say": "It's alright man."
+  },
+  { //dialogue 102
+    "bg": "house",
+    "char1": {
+      "emotion": "IDLE",
+      "animation": "disappear",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CONFUSED",
+      "name": "Artemiy",
+    },
+    "talker": "char1",
+    "say": "Well then ... I'll see you later ..."
+  },
+  { //dialogue 103
+    "bg": "house",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy",
+    },
+    "talker": "char2",
+    "say": "..."
+  },
+  { //dialogue 104
+    "bg": "house",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "animation": "disappear",
+      "name": "Artemiy",
+    },
+    "talker": "char2",
+    "say": "I hope things wont be that confusing tomorrow..."
+  },
+  { //dialogue 105
+    "bg": "blackScreen",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy",
+    },
+    "talker": "char1",
+    "say": "End of Prologue"
+  },
+  { //dialogue 105
+    "bg": "blackScreen",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy",
+    },
+    "talker": "char1",
+    "say": "Thanks for reading"
   },
 ];
 const exit = "../../index.html";
