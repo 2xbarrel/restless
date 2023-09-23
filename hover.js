@@ -4,14 +4,14 @@ let chapters = document.getElementsByClassName("chapters")[0].children;
 for (let chapter of chapters) {
   let src;
   switch (chapter.id) {
-    case "ch1":
-      src = "ch1cover.png";
+    case "1":
+      src = "prologuecover.png";
       break;
-    case "ch2":
-      src = "placeholder1.png";
+    case "2":
+      src = "ch1cover.png";
       break;
     default:
-      src = "ch1cover.png";
+      src = "prologuecover.png";
   }
   chapter.addEventListener("mouseover", (event) => { img.src = src; });
 }

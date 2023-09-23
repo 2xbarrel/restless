@@ -74,12 +74,22 @@ const timings = {
 };
 
 const extensions = {
+    // PNG
     "IDLE": ".png",
+    "SAD": ".png",
     "HAPPY": ".png",
     "ANGRY": ".png",
     "PAPERS": ".png",
     "CONFUSED": ".png",
     "OWIE": ".png",
+    "VPIZDU": ".png",
+    "SMUG": ".png",
+    "GEARDUP": ".png",
+    "GEARDUPTIRED": ".png",
+    "GEARDUPSCARED": ".png",
+    "GEARDUPBIRD": ".png",
+    "GEARDUPBIRD2": ".png",
+    // GIF
     "SCARED": ".gif",
     "LAUGH": ".gif",
     "CRY": ".gif",
@@ -106,7 +116,7 @@ setChar("char2", dialogueBetter);
 
 let dialogueNum = 0;
 
-button.addEventListener("click", async () => {
+function talkie() {
     dialogueNum++;
     
     let dialogueBetter = script[dialogueNum];
@@ -120,4 +130,15 @@ button.addEventListener("click", async () => {
 
     background.src= `../backgrounds/${dialogueBetter["bg"]}.png`;
     dialogue.innerHTML = `<span class ="${dialogueBetter[dialogueBetter["talker"]]["name"]}">${dialogueBetter[dialogueBetter["talker"]]["name"]}:</span><p>${dialogueBetter["say"]}</p>`;
+    console.log(dialogueNum + 1);
+};
+
+document.addEventListener("keydown", (event) => {
+    if (event.key == "Enter", "Space", "ArrowRight") {
+        talkie()
+    };
+});
+
+button.addEventListener("click", async () => {
+    talkie()
 });

@@ -1056,77 +1056,77 @@ const script = [
     "talker": "char2",
     "say": "Yes, it's torture."
   },
-  { //dialogue 82
-    "bg": "house",
-    "char1": {
-      "emotion": "IDLE",
-      "name": "Artemiy"
-    },
-    "char2": {
-      "emotion": "ANGRY",
-      "animation": "shakeChar2",
-      "name": "Hilde",
-    },
-    "talker": "char2",
-    "say": "Heyyyy what's with all the noiceeeee, I'm trying to sleeppppp! "
-  },
-  { //dialogue 83
-    "bg": "house",
-    "char1": {
-      "emotion": "IDLE",
-      "name": "Artemiy"
-    },
-    "char2": {
-      "emotion": "CONFUSED",
-      "name": "Hilde",
-    },
-    "talker": "char2",
-    "say": "Who is that dork?"
-  },
-  { //dialogue 84
-    "bg": "house",
-    "char1": {
-      "emotion": "HAPPY",
-      "name": "Artemiy"
-    },
-    "char2": {
-      "emotion": "CONFUSED",
-      "name": "Hilde",
-    },
-    "talker": "char1",
-    "say": "Well hi, I'm Artemiy, nice to meet you!"
-  },
-  { //dialogue 85
-    "bg": "house",
-    "char1": {
-      "emotion": "HAPPY",
-      "name": "Artemiy"
-    },
-    "char2": {
-      "emotion": "CONFUSED",
-      "animation": "disappear",
-      "name": "Hilde",
-    },
-    "talker": "char2",
-    "say": "I donnnnnnn't carrrrreeeeeeee ... I'll be sleeping, if you need me thennnn .... go away....."
-  },
-  { //dialogue 86
-    "bg": "house",
-    "char1": {
-      "emotion": "ANGRY",
-      "name": "Artemiy"
-    },
-    "char2": {
-      "emotion": "CONFUSED",
-      "name": "Hilde",
-    },
-    "talker": "char1",
-    "say": 'Damn ... not even a "hello"...'
-  },
+  // { //dialogue 82        HILDE CANNONICALLY LIVES AND NEVER DIES 
+  //   "bg": "house",
+  //   "char1": {
+  //     "emotion": "IDLE",
+  //     "name": "Artemiy"
+  //   },
+  //   "char2": {
+  //     "emotion": "ANGRY",
+  //     "animation": "shakeChar2",
+  //     "name": "Hilde",
+  //   },
+  //   "talker": "char2",
+  //   "say": "Heyyyy what's with all the noiceeeee, I'm trying to sleeppppp! "
+  // },
+  // { //dialogue 83
+  //   "bg": "house",
+  //   "char1": {
+  //     "emotion": "IDLE",
+  //     "name": "Artemiy"
+  //   },
+  //   "char2": {
+  //     "emotion": "CONFUSED",
+  //     "name": "Hilde",
+  //   },
+  //   "talker": "char2",
+  //   "say": "Who is that dork?"
+  // },
+  // { //dialogue 84
+  //   "bg": "house",
+  //   "char1": {
+  //     "emotion": "HAPPY",
+  //     "name": "Artemiy"
+  //   },
+  //   "char2": {
+  //     "emotion": "CONFUSED",
+  //     "name": "Hilde",
+  //   },
+  //   "talker": "char1",
+  //   "say": "Well hi, I'm Artemiy, nice to meet you!"
+  // },
+  // { //dialogue 85
+  //   "bg": "house",
+  //   "char1": {
+  //     "emotion": "HAPPY",
+  //     "name": "Artemiy"
+  //   },
+  //   "char2": {
+  //     "emotion": "CONFUSED",
+  //     "animation": "disappear",
+  //     "name": "Hilde",
+  //   },
+  //   "talker": "char2",
+  //   "say": "I donnnnnnn't carrrrreeeeeeee ... I'll be sleeping, if you need me thennnn .... go away....."
+  // },
+  // { //dialogue 86
+  //   "bg": "house",
+  //   "char1": {
+  //     "emotion": "ANGRY",
+  //     "name": "Artemiy"
+  //   },
+  //   "char2": {
+  //     "emotion": "CONFUSED",
+  //     "name": "Hilde",
+  //   },
+  //   "talker": "char1",
+  //   "say": 'Damn ... not even a "hello"...'
+  // },
   { //dialogue 87
     "bg": "house",
     "char1": {
-      "emotion": "ANGRY",
+      "emotion": "IDLE",
       "name": "Artemiy"
     },
     "char2": {
@@ -1135,7 +1135,7 @@ const script = [
       "name": "Grace",
     },
     "talker": "char2",
-    "say": "Don't mind Hilde, she's always sleeping, sometimes I forget she even exists. Well since you're going to be staying here, we need to decide where you will sleep."
+    "say": "Well since you're going to be staying here, we need to decide where you will sleep."
   },
   { //dialogue 88
     "bg": "house",
