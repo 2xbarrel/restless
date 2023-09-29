@@ -10,6 +10,9 @@ for (let chapter of chapters) {
     case "2":
       src = "ch1cover.png";
       break;
+    case "3":
+      src = "ch2cover.png";
+      break;
     default:
       src = "prologuecover.png";
   }

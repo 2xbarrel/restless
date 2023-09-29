@@ -74,10 +74,11 @@ const timings = {
 };
 
 const extensions = {
-    // PNG
+    // PNG (the boring ones)
     "IDLE": ".png",
     "SAD": ".png",
     "HAPPY": ".png",
+    "HAPPY2": ".png",
     "ANGRY": ".png",
     "PAPERS": ".png",
     "CONFUSED": ".png",
@@ -89,7 +90,12 @@ const extensions = {
     "GEARDUPSCARED": ".png",
     "GEARDUPBIRD": ".png",
     "GEARDUPBIRD2": ".png",
-    // GIF
+    "LAUGH1": ".png",
+    "SHOCK": ".png",
+    "TIEDUP": ".png",
+    "TIEDUP2": ".png",
+    // GIF (the fun ones)
+    "SLEEP": ".gif",
     "SCARED": ".gif",
     "LAUGH": ".gif",
     "CRY": ".gif",
@@ -134,11 +140,11 @@ function talkie() {
 };
 
 document.addEventListener("keydown", (event) => {
-    if (event.key == "Enter", "Space", "ArrowRight") {
-        talkie()
-    };
+    if (["Enter", "ArrowRight", " "].includes(event.key)) {
+        talkie();
+    }
 });
 
 button.addEventListener("click", async () => {
-    talkie()
+    talkie();
 });

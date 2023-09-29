@@ -67,7 +67,6 @@ iframe {
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    /* max-height: 700px; */
     height: 607.5px;
     border: 3px solid  var(--color1); 
 }
@@ -109,6 +108,17 @@ h2 {
     height: auto;
 }
 
+.bonus {
+    margin: 5px;
+    max-width: 640px;
+    border-radius: 8px;
+    height: auto;
+}
+
+.fame {
+    font-size: 50px;
+}
+
 a {
    color: var(--color1);
    text-decoration: underline 2px;
@@ -124,11 +134,19 @@ a:visited {
       font-size: 11vw;
     }
     
+    .fame {
+        font-size: 8vw;   
+    }
+
     h2 {
       font-size: 6vw;
     }
 
     .img {
+        max-width: 100%;
+    }
+
+    .bonus {
         max-width: 100%;
     }
 
