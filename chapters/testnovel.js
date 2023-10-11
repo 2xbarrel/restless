@@ -27,18 +27,6 @@ const animations = {
     "disappear": [
         { opacity: 1 },
         { opacity: 0 },
-    ],
-    "appearRight": [
-        { transform: "translateX(0px)" },
-        { transform: "translateX(50px)" },
-        { opacity: 0 },
-        { opacity: 1 },
-    ],
-    "appearLeft": [
-        { transform: "translateX(0px)" },
-        { transform: "translateX(50px)" },
-        { opacity: 0 },
-        { opacity: 1 },
     ]
 };
 
@@ -57,16 +45,6 @@ const timings = {
         fill: "forwards",
     },
     "disappear": {
-        duration: 400,
-        iterations: 1,
-        fill: "forwards",
-    },
-    "appearRight": {
-        duration: 400,
-        iterations: 1,
-        fill: "forwards",
-    },
-    "appearLeft": {
         duration: 400,
         iterations: 1,
         fill: "forwards",
