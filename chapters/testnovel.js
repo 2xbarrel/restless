@@ -72,6 +72,10 @@ const extensions = {
     "SHOCK": ".png",
     "TIEDUP": ".png",
     "TIEDUP2": ".png",
+    "BOTTLE": ".png",
+    "BOTTLE2": ".png",
+    "CARDS": ".png",
+    "NONE": ".png",
     // GIF (the fun ones)
     "SLEEP": ".gif",
     "SCARED": ".gif",
@@ -114,7 +118,7 @@ function talkie() {
 
     background.src= `../backgrounds/${dialogueBetter["bg"]}.png`;
     dialogue.innerHTML = `<span class ="${dialogueBetter[dialogueBetter["talker"]]["name"]}">${dialogueBetter[dialogueBetter["talker"]]["name"]}:</span><p>${dialogueBetter["say"]}</p>`;
-    console.log(dialogueNum + 1);
+    console.log(dialogueNum);
 };
 
 document.addEventListener("keydown", (event) => {

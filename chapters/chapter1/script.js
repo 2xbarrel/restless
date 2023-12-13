@@ -72,10 +72,10 @@ const script = [
             "name": "Artemiy"
         },
         "talker": "char2",
-        "say": "Wait a minute, who is that?"
+        "say": "Wait a minute, what's is that?"
     },
     { //dialogue 8
-        "bg": "BrodieHide1", 
+        "bg": "bird1", 
         "char1": {
             "emotion": "IDLE",
             "name": "STOPLOOKINGHERE"
@@ -88,7 +88,7 @@ const script = [
         "say": "..."
     },
     { //dialogue 9
-        "bg": "BrodieHide2", 
+        "bg": "bird2", 
         "char1": {
             "emotion": "IDLE",
             "name": "STOPLOOKINGHERE"
@@ -111,7 +111,7 @@ const script = [
             "name": "Artemiy"
         },
         "talker": "char2",
-        "say": "... Huh, I thought I already met everyone here."
+        "say": "... Huh, can't say I expected to see birds in here."
     },
     { //dialogue 11
         "bg": "town",
@@ -342,7 +342,7 @@ const script = [
             "name": "Erik"
         },
         "talker": "char1",
-        "say": "Did I? That just looked like some kid."
+        "say": "Did I? That just looked like a bird."
     },
     { //dialogue 28
         "bg": "EriksRoom",
@@ -1410,7 +1410,7 @@ const script = [
             "name": "Erik"
         },
         "talker": "char2",
-        "say": "Uhhhh Yes the plan! We run into the woods and try to capture on of the aliens!"
+        "say": "Uhhhh Yes the plan! We run into the woods and try to capture one of the aliens!"
     },
     { //dialogue 108
         "bg": "shed",
