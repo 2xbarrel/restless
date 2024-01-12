@@ -2,17 +2,17 @@ const script = [
   { //dialogue 0
     "bg": "blackScreen",
     "char1": {
-        "emotion": "IDLE",
-        "name": "STOPLOOKINGHERE"
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
     },
     "char2": {
-        "emotion": "IDLE",
-        "animation": "appear",
-        "name": "STOPLOOKINGHERE"
+      "emotion": "IDLE",
+      "animation": "appear",
+      "name": "STOPLOOKINGHERE"
     },
     "talker": "char1",
     "say": "October 27th, 14:34"
-},
+  },
   { //dialogue 1
     "bg": "house",
     "char1": {
@@ -1153,13 +1153,104 @@ const script = [
     },
     "char2": {
       "emotion": "CARDS",
-      "name": "Grace"
+      "name": "Elise"
     },
     "talker": "char2",
-    "say": "."
+    "say": "Alright then, call."
   },
   { //dialogue 86
-    "bg": "pokernight2",
+    "bg": "pokernight3",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "Call."
+  },
+  { //dialogue 87
+    "bg": "pokernight3",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Artemiy"
+    },
+    "talker": "char1",
+    "say": "...."
+  },
+  { //dialogue 88
+    "bg": "pokernight4",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Artemiy"
+    },
+    "talker": "char1",
+    "say": "There is no phone here, who are you guys calling?"
+  },
+  { //dialogue 89
+    "bg": "pokernight5",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "No, Erik, we're not actually calling anyone."
+  },
+  { //dialogue 90
+    "bg": "pokernight5",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "Not that we can."
+  },
+  { //dialogue 91
+    "bg": "pokernight5",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "It's just a move in the game to place your bet."
+  },
+  { //dialogue 92
+    "bg": "pokernight6",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "Ok, then I guess, I call too?"
+  },
+  { //dialogue 93
+    "bg": "pokernight7",
     "char1": {
       "emotion": "CARDS",
       "name": "Erik"
@@ -1169,8 +1260,873 @@ const script = [
       "name": "Grace"
     },
     "talker": "char2",
-    "say": "."
+    "say": "Well, now that we're finally at it, should we start a conversation about something?"
+  },
+  { //dialogue 94
+    "bg": "pokernight8",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "Like what?"
+  },
+  { //dialogue 95
+    "bg": "pokernight7",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "Well, I don't believe I know how all of you ended up here, how you died I mean."
+  },
+  { //dialogue 96
+    "bg": "pokernight3",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "Call."
+  },
+  { //dialogue 97
+    "bg": "pokernight3",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "Raise."
+  },
+  { //dialogue 98 
+    "bg": "pokernight4",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": ".... Call?"
+  },
+  { //dialogue 99
+    "bg": "pokernight9",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "I died due to a heart attack, well I believe I did."
+  },
+  { //dialogue 100
+    "bg": "pokernight10",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "CARDS",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "I'd rather not talk about how I died, not yet at least."
+  },
+  { //dialogue 101
+    "bg": "pokernight4",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "I dont remember how I died."
+  },
+  { //dialogue 102
+    "bg": "pokernight11",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "I died playing poker, so this really bring me back."
+  },
+  { //dialogue 103
+    "bg": "pokernight12",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "Oh man, that is horrible."
+  },
+  { //dialogue 104
+    "bg": "pokernight11",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "Oh it's alright."
+  },
+  { //dialogue 105
+    "bg": "pokernight7",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "What's the point of being sad about death when it already happened."
+  },
+  { //dialogue 106
+    "bg": "pokernight7",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "Fair enough I guess?"
+  },
+  { //dialogue 107
+    "bg": "pokernight13",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Samael"
+    },
+    "talker": "char2",
+    "say": "WHYYYEA DID SHEA LEAAV MEEEEEEEEEEEEEEE!!!????"
+  },
+  { //dialogue 108
+    "bg": "pokernight14",
+    "char1": {
+      "emotion": "CARDS",
+      "name": "Erik"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "What the hell is going on up there."
+  },
+  { //dialogue 109
+    "bg": "house",
+    "char1": {
+      "emotion": "BOTTLE",
+      "animation": "appear",
+      "name": "Eve"
+    },
+    "char2": {
+      "emotion": "BOTTLE3",
+      "animation": "appear",
+      "name": "Samael"
+    },
+    "talker": "char2",
+    "say": "EVERYTHING WAS SHO GOOOOD!!"
+  },
+  { //dialogue 110
+    "bg": "house",
+    "char1": {
+      "emotion": "BOTTLE",
+      "name": "Eve"
+    },
+    "char2": {
+      "emotion": "BOTTLE3",
+      "animation": "shakeChar2",
+      "name": "Samael"
+    },
+    "talker": "char2",
+    "say": "AND SHE LEFT JUST TO LIVE WITH SOME ..... FILTHY MORTALS"
+  },
+  { //dialogue 111
+    "bg": "house",
+    "char1": {
+      "emotion": "BOTTLE2",
+      "animation": "shake",
+      "name": "Eve"
+    },
+    "char2": {
+      "emotion": "BOTTLE3",
+      "name": "Samael"
+    },
+    "talker": "char1",
+    "say": "shut....Shut your mouf!!!"
+  },
+  { //dialogue 112
+    "bg": "house",
+    "char1": {
+      "emotion": "BOTTLE2",
+      "animation": "shake",
+      "name": "Eve"
+    },
+    "char2": {
+      "emotion": "BOTTLE3",
+      "name": "Samael"
+    },
+    "talker": "char1",
+    "say": "Shut your stupid..."
+  },
+  { //dialogue 112
+    "bg": "house",
+    "char1": {
+      "emotion": "BOTTLE3",
+      "name": "Eve"
+    },
+    "char2": {
+      "emotion": "BOTTLE3",
+      "name": "Samael"
+    },
+    "talker": "char1",
+    "say": "...cute..."
+  },
+  { //dialogue 112
+    "bg": "house",
+    "char1": {
+      "emotion": "BOTTLE3",
+      "name": "Eve"
+    },
+    "char2": {
+      "emotion": "BOTTLE3",
+      "name": "Samael"
+    },
+    "talker": "char1",
+    "say": "mouth..."
+  },
+  { //dialogue 113
+    "bg": "pokernight14",
+    "char1": {
+      "emotion": "IDLE",
+      "animation": "disappear",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "NONE",
+      "animation": "disappear",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "... Guess it's none of our business."
+  },
+  { //dialogue 114
+    "bg": "pokernight4",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "So I gotta ask, how did you die from poker? This doesn't seem dangerous."
+  },
+  { //dialogue 115
+    "bg": "pokernight7",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "Well, if you would be a little bit smarter, you would realise that it's not poker that killed me and instead the people I played with."
+  },
+  { //dialogue 116
+    "bg": "pokernight15",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "Do you get some kind of pleasure from calling me stupid?"
+  },
+  { //dialogue 117
+    "bg": "pokernight16",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "I do, yes!"
+  },
+  { //dialogue 118
+    "bg": "pokernight8",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "So who did you play with so that you, well, died?"
+  },
+  { //dialogue 119
+    "bg": "pokernight2",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "Crooks, common criminals, even mafia one time."
+  },
+  { //dialogue 120
+    "bg": "pokernight8",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "Why?"
+  },
+  { //dialogue 121
+    "bg": "pokernight3",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "They bet more, more money they lose means more money for me."
+  },
+  { //dialogue 122
+    "bg": "pokernight17",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "So all that just for money?"
+  },
+  { //dialogue 123
+    "bg": "pokernight11",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "Basically, it was the only way to put food on the table."
+  },
+  { //dialogue 124
+    "bg": "pokernight8",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "So it was basically like a job to you?"
+  },
+  { //dialogue 125
+    "bg": "pokernight18",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "Yes, the lowest way of life there is."
+  },
+  { //dialogue 126
+    "bg": "pokernight19",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "I don't blame you."
+  },
+  { //dialogue 127
+    "bg": "pokernight19",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "When youre good at something, or just know how to do one thing."
+  },
+  { //dialogue 128
+    "bg": "pokernight20",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "You kind of stick to that one thing."
+  },
+  { //dialogue 129
+    "bg": "pokernight20",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "It doesn't mean it's good, but it works."
+  },
+  { //dialogue 130
+    "bg": "pokernight20",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "And before you realise that it has to change, it's too late."
+  },
+  { //dialogue 131
+    "bg": "pokernight21",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "..."
+  },
+  { //dialogue 132
+    "bg": "pokernight22",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "Well, realising that things have to change is a big step already."
+  },
+  { //dialogue 133
+    "bg": "pokernight23",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "I'd say it's never too late, I only realised that yesterday."
+  },
+  { //dialogue 134
+    "bg": "pokernight23",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "Instead of sitting in the same place and silently regretting your past choices you can enjoy these last moments."
+  },
+  { //dialogue 135
+    "bg": "pokernight24",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "Especially since here you don't really have any exuses not to."
+  },
+  { //dialogue 136
+    "bg": "pokernight25",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "So, what do you think?"
+  },
+  { //dialogue 136
+    "bg": "pokernight25",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "I think....."
+  },
+  { //dialogue 137
+    "bg": "pokernight25",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "I think....."
+  },
+  { //dialogue 138
+    "bg": "pokernight25",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "..."
+  },
+  { //dialogue 139
+    "bg": "pokernight26",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "... I think I'm sick of this game."
+  },
+  { //dialogue 140
+    "bg": "pokernight26",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "Let's do something else, literally anything else."
+  },
+  { //dialogue 141
+    "bg": "pokernight24",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "Fine by me."
+  },
+  { //dialogue 142
+    "bg": "table",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "Do you guys think that TV in the living room works?"
+  },
+  { //dialogue 143
+    "bg": "table",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "Only one way to find out."
+  },
+  { //dialogue 144
+    "bg": "table",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "Well since this is the afterlife, can we really call it the LIVING room?"
+  },
+  { //dialogue 145
+    "bg": "table",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Grace"
+    },
+    "talker": "char2",
+    "say": "Shut up."
+  },
+  { //dialogue 146
+    "bg": "table",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "Shut up."
+  },
+  { //dialogue 147
+    "bg": "table",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "Shut up."
+  },
+  { //dialogue 148
+    "bg": "table",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "Well fine damn!"
+  },
+  { //dialogue 149
+    "bg": "kis",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "Man it's so good to finally leave that baseme-"
+  },
+  { //dialogue 150
+    "bg": "kis2",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "..."
+  },
+  { //dialogue 151
+    "bg": "kis2",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Erik"
+    },
+    "talker": "char2",
+    "say": "Dude? You good?"
+  },
+  { //dialogue 152
+    "bg": "kis2",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "Out."
+  },
+  { //dialogue 153
+    "bg": "kis2",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Elise"
+    },
+    "talker": "char2",
+    "say": "What?"
+  },
+  { //dialogue 154
+    "bg": "kis2",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "talker": "char2",
+    "say": "I SAID EVERYBODY OUT!"
+  },
+  { //dialogue 155
+    "bg": "blackScreen",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "talker": "char1",
+    "say": "End of chapter 3."
+  },
+  { //dialogue 156
+    "bg": "blackScreen",
+    "char1": {
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
+    },
+    "char2": {
+      "emotion": "IDLE",
+      "name": "Artemiy"
+    },
+    "talker": "char1",
+    "say": "Thank you for reading."
   },
 ];
-// const exit = "../../index.html";
-const exit = " ";
+
+const exit = "../../index.html";

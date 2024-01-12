@@ -1727,7 +1727,7 @@ const script = [
         },
         "char2": {
             "emotion": "CONFUSED",
-            "name": "Artemiy"
+            "name": "Elise"
         },
         "talker": "char1",
         "say": "WHAT THE HELL ARE YOU DOING??!!"

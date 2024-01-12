@@ -74,6 +74,7 @@ const extensions = {
     "TIEDUP2": ".png",
     "BOTTLE": ".png",
     "BOTTLE2": ".png",
+    "BOTTLE3": ".png",
     "CARDS": ".png",
     "NONE": ".png",
     // GIF (the fun ones)

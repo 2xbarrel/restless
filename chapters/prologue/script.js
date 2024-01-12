@@ -1057,7 +1057,7 @@ const script = [
     "say": "Yes, it's torture."
   },
   // { //dialogue 82        HILDE CANNONICALLY LIVES AND NEVER DIES 
-  //   "bg": "house",
+  //   "bg": "house",           unless i make a restless sequel or something
   //   "char1": {
   //     "emotion": "IDLE",
   //     "name": "Artemiy"
@@ -1408,3 +1408,6 @@ const script = [
   },
 ];
 const exit = "../../index.html";
+
+// for all you people who know how to look through files and find funny things and stuff i, quadbarrel, salute you for your effort, unfortunately there is nothing
+// lol
