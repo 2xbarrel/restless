@@ -121,6 +121,11 @@ h2 {
     font-size: 50px;
 }
 
+.bumper {
+    max-width: 280px;
+    height: auto;
+}
+
 a {
    color: var(--color1);
    text-decoration: underline 2px;
