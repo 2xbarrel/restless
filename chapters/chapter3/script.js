@@ -2063,7 +2063,7 @@ const script = [
     "say": "Dude? You good?"
   },
   { //dialogue 152
-    "bg": "kis2",
+    "bg": "kis3",
     "char1": {
       "emotion": "IDLE",
       "name": "STOPLOOKINGHERE"
@@ -2076,7 +2076,7 @@ const script = [
     "say": "Out."
   },
   { //dialogue 153
-    "bg": "kis2",
+    "bg": "kis3",
     "char1": {
       "emotion": "IDLE",
       "name": "STOPLOOKINGHERE"
@@ -2089,7 +2089,7 @@ const script = [
     "say": "What?"
   },
   { //dialogue 154
-    "bg": "kis2",
+    "bg": "kis3",
     "char1": {
       "emotion": "IDLE",
       "name": "STOPLOOKINGHERE"

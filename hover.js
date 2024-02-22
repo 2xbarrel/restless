@@ -4,17 +4,20 @@ let chapters = document.getElementsByClassName("chapters")[0].children;
 for (let chapter of chapters) {
   let src;
   switch (chapter.id) {
-    case "1":
+    case "0":
       src = "prologuecover.png";
       break;
-    case "2":
+    case "1":
       src = "ch1cover.png";
       break;
-    case "3":
+    case "2":
       src = "ch2cover.png";
       break;
-    case "4":
+    case "3":
       src = "ch3cover.png";
+      break;
+    case "4":
+      src = "ch4cover.png";
       break;
     default:
       src = "prologuecover.png";

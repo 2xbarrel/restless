@@ -392,7 +392,7 @@ const script = [
             "name": "Samael"
         },
         "talker": "char2",
-        "say": "Except for one."
+        "say": "Not for long."
     },
     { //dialogue 29
         "bg": "house",
