@@ -2067,7 +2067,7 @@ const script = [
       "name": "Artemiy"
     },
     "talker": "char2",
-    "say": "I hanged myself."
+    "say": "I hung myself."
   },
   { //dialogue 153
     "bg": "beach",
