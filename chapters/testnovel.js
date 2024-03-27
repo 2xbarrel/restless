@@ -5,7 +5,7 @@ const background = document.getElementById("bg");
 
 let dialogueBetter = script[0];
 
-const animations = {
+const animations = { 
     "shake": [
         { transform: "translateX(0)" },
         { transform: "translateX(15px)" },
@@ -13,7 +13,7 @@ const animations = {
         { transform: "translateX(15px)" },
         { transform: "translateX(0)" },
     ],
-    "shakeChar2": [
+    "shakeChar2": [ 
         { transform: "translateX(0) scaleX(-1)" },
         { transform: "translateX(15px) scaleX(-1)" },
         { transform: "translateX(-15px) scaleX(-1)" },
@@ -51,7 +51,7 @@ const timings = {
     }
 };
 
-const extensions = {
+const extensions = { // aint this a mess
     // PNG (the boring ones)
     "IDLE": ".png",
     "SAD": ".png",
@@ -59,9 +59,10 @@ const extensions = {
     "HAPPY2": ".png",
     "ANGRY": ".png",
     "PAPERS": ".png",
+    "PAPERS1": ".png",
     "CONFUSED": ".png",
     "OWIE": ".png",
-    "VPIZDU": ".png",
+    "MAD": ".png",
     "SMUG": ".png",
     "GEARDUP": ".png",
     "GEARDUPTIRED": ".png",
@@ -70,6 +71,7 @@ const extensions = {
     "GEARDUPBIRD2": ".png",
     "LAUGH1": ".png",
     "SHOCK": ".png",
+    "SHOCK2": ".png",
     "TIEDUP": ".png",
     "TIEDUP2": ".png",
     "BOTTLE": ".png",
@@ -77,13 +79,28 @@ const extensions = {
     "BOTTLE3": ".png",
     "CARDS": ".png",
     "NONE": ".png",
+    "HUNGOVER": ".png",
+    "HUNGOVER1": ".png",
+    "HUNGOVER2": ".png",
+    "HUNGOVER3": ".png",
+    "WAH": ".png",
+    "WAH1": ".png",
+    "WAH2": ".png",
+    "WAH3": ".png",
+    "WAH4": ".png",
+    "SWAG": ".png",
+    "SWAGPAPERS": ".png",
+    "SWAGWHAT": ".png",
     // GIF (the fun ones)
     "SLEEP": ".gif",
     "SCARED": ".gif",
     "LAUGH": ".gif",
     "CRY": ".gif",
+    "FURIOUS": ".gif",
     "GRUMPY": ".gif"
 };
+
+// most of this was written by my friend
 
 function setChar(charName, dialogue) {
     if (dialogue[charName]) {
@@ -119,7 +136,7 @@ function talkie() {
 
     background.src= `../backgrounds/${dialogueBetter["bg"]}.png`;
     dialogue.innerHTML = `<span class ="${dialogueBetter[dialogueBetter["talker"]]["name"]}">${dialogueBetter[dialogueBetter["talker"]]["name"]}:</span><p>${dialogueBetter["say"]}</p>`;
-    console.log(dialogueNum);
+    console.log(dialogueNum); // fuck you im not removing console log
 };
 
 document.addEventListener("keydown", (event) => {
