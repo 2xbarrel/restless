@@ -19,14 +19,12 @@ for (let chapter of chapters) {
     case "4":
       src = "ch4cover.png";
       break;
-    // case "5":
-    //   src = "placeholder1.png";
-    // break;
-    // case "6":
-    //   src = "placeholder1.png";
-    // break;
-    default:
-      src = "prologuecover.png";
+    case "5":
+      src = "ch5cover.png";
+    break;
+    case "6":
+      src = "epiloguecover.png";
+    break;
   }
   chapter.addEventListener("mouseover", (event) => { img.src = src; });
 }

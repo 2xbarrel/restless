@@ -2090,8 +2090,8 @@ const script = [
       "name": "STOPLOOKINGHERE"
     },
     "char2": {
-      "emotion": "NONE",
-      "name": "Artemiy"
+      "emotion": "IDLE",
+      "name": "STOPLOOKINGHERE"
     },
     "talker": "char1",
     "say": "End of chapter 4."
@@ -2104,7 +2104,7 @@ const script = [
     },
     "char2": {
       "emotion": "IDLE",
-      "name": "Artemiy"
+      "name": "STOPLOOKINGHERE"
     },
     "talker": "char1",
     "say": "Thank you for reading."

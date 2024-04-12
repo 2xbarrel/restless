@@ -13,8 +13,6 @@
 }
 
 :root {
-    /* --color1: rgb(255, 127, 42);
-    --color2: rgb(190, 85, 24); */
     --color1: rgb(134, 134, 134);
     --color2: rgb(112, 112, 112);
 }
@@ -104,6 +102,30 @@ h2 {
     font-size: 40px;
 }
 
+.pr:hover {
+    color: white;
+}
+
+.ch1:hover {
+    color: rgb(41, 131, 41);
+}
+
+.ch2:hover {
+    color: rgb(0, 104, 202);
+}
+
+.ch3:hover {
+    color: rgb(143, 57, 177);
+}
+
+.ch4:hover {
+    color: #ff93b7;
+}
+
+.ch5:hover {
+    color: rgb(255, 127, 42);
+}
+
 .img {
     max-width: 450px;
     border-radius: 8px;
@@ -181,5 +203,4 @@ a:visited {
     }
 
 }
-  
   
