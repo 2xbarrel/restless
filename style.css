@@ -168,7 +168,7 @@ a:visited {
     }
 
     h2 {
-      font-size: 6vw;
+      font-size: 5vw;
     }
 
     .img {
@@ -181,7 +181,7 @@ a:visited {
 
     .chapters {
         flex-direction: row;
-        gap: 15px;
+        gap: 5px;
     }
 
     .menu {
@@ -190,6 +190,7 @@ a:visited {
     }
 
     .box {
+        padding: 10px;
         max-width: 90vw;
     }
 

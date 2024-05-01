@@ -55,6 +55,7 @@ const extensions = { // aint this a mess
     // PNG (the boring ones)
     "IDLE": ".png",
     "SAD": ".png",
+    "SAD2": ".png",
     "HAPPY": ".png",
     "HAPPY2": ".png",
     "ANGRY": ".png",
@@ -91,6 +92,11 @@ const extensions = { // aint this a mess
     "SWAG": ".png",
     "SWAGPAPERS": ".png",
     "SWAGWHAT": ".png",
+    "SWAGCONFUSED": ".png",
+    "SWAGANGRY": ".png",
+    "SWAGSAD": ".png",
+    "HATOFF": ".png",
+    "HATOFFSWAGLESS": ".png",
     // GIF (the fun ones)
     "SLEEP": ".gif",
     "SCARED": ".gif",
